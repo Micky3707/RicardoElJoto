@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Estructuras Algoritmicas</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body onpaste="return false">
+	<script src="js/funciones.js"></script>
+	<header>
+		<div class="menu">
+			<nav class="navegador">
+				<ul>
+					<li><a href="#P1">Problema 1</a></li>
+					<li><a href="#P2">Problema 2</a></li>
+					<li><a href="#P3">Problema 3</a></li>
+					<li><a href="#P4">Problema 4</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class = "Problema_1">
+		<a name="P1"></a>
+		<h1>Problema 1</h1>
+		<form name = "Formulario1" method="post">
+			<table id="tabla1">
+				<tr>
+					<td>Ingrese el primer numero: </td>
+					<td><input type="text" name="num1" onkeypress="return validarn(event)"></td>
+				</tr>
+				<tr>
+					<td>Ingrese el segundo numero: </td>
+					<td><input type="text" name="num2"
+						onkeypress="return validarn(event)"></td>
+				</tr>
+				<tr>
+					<td><input type="button" name="operacion" value="Realizar operacion" onclick="operaciones()"></td>
+					<td></td>
+				</tr>
+				<tr>
+				<td>La operacion que se realizo fue: </td>
+				<td><input type="text" id="oper" class="input_text" readonly="readonly"></td>	
+				</tr>
+				<tr>
+					<td>El resultado es: </td>
+					<td><input type="text" id="resul" class="input_text" readonly="readonly"></td>
+				</tr>
+			</table>
+		</form>
+	</section>
+	<section class="Problema_2">
+		<a name="P2"></a>
+		<h1>Problema 2</h1>
+		<form name="Formulario2" method="post">
+			<table id="tabla2">
+				<tr>
+					<td>Ingrese el primer numero: </td>
+					<td><input type="text" name="num1" onkeypress="return validarn(event)"></td>
+				</tr>
+				<tr>
+					<td>Ingrese el segundo numero: </td>
+					<td><input type="text" name="num2" onkeypress="return validarn(event)"></td>
+				</tr>
+				<tr>
+					<td>Ingrese el tercer numero: </td>
+					<td><input type="text" name="num3" onkeypress="return validarn(event)"></td>
+				</tr>
+				<tr>
+					<td><input type="button" name="comparacion" value="Comparar" onclick="compararn()"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>El numero mayor es: </td>
+					<td><input type="text" id="mayor" class="input_text" readonly="readonly"></td>
+				</tr>
+			</table>
+		</form>
+	</section>	
+	<section class="Problema_3">
+		<a name="P3"></a>
+		<h1>Problema 3</h1>
+		<form name="Formulario3" method="post">
+			<table id="tabla3">
+				<tr>
+					<td>Sueldo base por hora: </td>
+					<td><input type="text" name="sueldob" onkeypress="return validarnd(event)"></td>
+				</tr>
+				<tr>
+					<td>Total de horas trabajadas en la semana: </td>
+					<td><input type="text" name="horas" onkeypress="return validarne(event)"></td>
+				</tr>
+				<tr>
+					<td><input type="button" name="calcular" value="Calcular pago" onclick="pago()"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Pago por horas normales: </td>
+					<td><input type="text" id="horasn" class="input_text" readonly="readonly"></td>
+				</tr>
+				<tr>
+					<td>Pago por horas extras: </td>
+					<td><input type="text" id="horase" class="input_text" readonly="readonly"></td>
+				</tr>
+				<tr>
+					<td>Total: </td>
+					<td><input type="text" id="total" class="input_text" readonly="readonly"></td>
+				</tr>
+			</table>
+		</form>
+	</section>
+	<section class="Problema_4">
+		<a name="P4"></a>
+		<h1>Problema 4</h1>
+		<form name="Formulario4" method="post">
+			<table id="tabla4">
+				<tr>
+					<td>Sueldo mensual: </td>
+					<td><input type="text" name="sueldom" onkeypress="return validarnd(event)"></td>
+				</tr>
+				<tr>
+					<td>Tiempo en la empresa en años: </td>
+					<td><input type="text" name="tiempo" onkeypress="return validarnd(event)"></td>
+				</tr>
+				<tr>
+					<td><input type="button" name="util" value="Calcular Utilidad" onclick="utilidad()"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Su utildad es del: </td>
+					<td><input type="text" id="utip" class="input_text" readonly="readonly"></td>
+				</tr>
+				<tr>
+					<td>Utilidad: </td>
+					<td><input type="text" id="uti" class="input_text" readonly="readonly"></td>
+				</tr>
+			</table>
+		</form>
+	</section>
+</body>
+</html>

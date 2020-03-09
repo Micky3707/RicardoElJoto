@@ -1,0 +1,75 @@
+*{
+	
+}
+body{
+	background-color: #ffb6b9;
+}
+.Problema_1{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.Problema_2{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.Problema_3{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.Problema_4{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.menu{
+	border: 4px;
+	border-radius: 10px;
+	margin: 5px;
+	background-color: #bbded6;
+}
+header{
+	height: 100px;
+	border: 4px;
+	margin: 0;
+	background-color: #8ac6d1;
+}
+nav ul{
+	padding-top: 1rem;
+	list-style-type: none;
+	border-radius: 10px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li{
+	padding-top: 1rem;
+	float: right;
+	font-size: 15px;
+	border-radius: 2px solid ;
+}
+nav ul li a{
+	padding-top: 1rem;
+	display: block;
+	padding: 3px;
+	color: black;
+	text-decoration: none;
+}
+nav ul li:hover{
+	padding-top: 1rem;
+	background: #bbded6;
+}
+h1{
+	text-align: center;
+	padding-bottom: 1rem;
+}
+#tabla1{
+	margin: auto;
+}
+#tabla2{
+	margin: auto;
+}
+#tabla3{
+	margin: auto;
+}
+#tabla4{
+	margin: auto;
+}
